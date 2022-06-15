@@ -1,10 +1,26 @@
 <head>
+  <script type="text/javascript">
+  
+  // Put your Google Entry Form ID Here
+  var Google_Entry_ID="entry.39168894";
+  
+  
+  </script> 
+ 
 <link rel="stylesheet" href="assets/style.css">
-<script type="text/javascript">var submitted=false;</script> 
+<script type="text/javascript">
+  
+  
+  
+  var submitted=false;
+  
+  </script> 
+<script type="text/javascript" src="assets/email-form.js"></script>   
+  
 </head>
 
 
-<div class="card">
+<div id="emailFormCard" class="card">
   <div class="image">
     <img src="https://cdn.pixabay.com/photo/2019/01/12/16/21/breakfast-3928800_960_720.jpg" alt="img">
   </div>
@@ -17,7 +33,7 @@
  
   
 
-    <input style="background:#3c3c44;" type="email" placeholder="Enter Yours Email Here"  name="entry.39168894" id="entry.39168894" required>
+    <input style="background:#3c3c44;" type="email" placeholder="Enter Yours Email Here"  name="GOOGLE_ENTRY_FORM_NUM" id="GOOGLE_ENTRY_FORM_NUM" required>
 
    
     <input type="submit" value="Subscribe">
@@ -31,5 +47,10 @@
 
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-<script type="text/javascript" src="assets/email-form.js"></script>   
+
+
+<script>
+  var strMessage1 = document.getElementById("emailFormCard") ;
+strMessage1.innerHTML = strMessage1.innerHTML
+                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID);</script>
 
