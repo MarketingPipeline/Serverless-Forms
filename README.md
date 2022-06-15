@@ -9,7 +9,9 @@ A free server-less mail form with no redirects.
 * Free to use!
 
 
-## How to Use
+## Example and Usage
+
+[Newsletter Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)
 
 <details>
   <summary> Click to view instructions</summary>
