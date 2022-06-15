@@ -1,6 +1,6 @@
 document.getElementById("gform").addEventListener('submit', (e) => {
   
-  
+  // Timeout is needed for form to properly submit with animation
   setTimeout(function(){
    
   var subscribeForm = document.getElementById("subscribeForm")
