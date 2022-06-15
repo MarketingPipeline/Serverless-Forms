@@ -1,0 +1,55 @@
+<head>
+  <script type="text/javascript">
+  
+  // Put your Google Entry Form ID Here
+  var Google_Entry_ID="entry.39168894";
+    
+   // Put your Google Form Link Here  (Make sure to use correct link as documented)
+  var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
+  
+  
+  </script> 
+ 
+<link rel="stylesheet" href="assets/style.css">
+<script type="text/javascript" src="assets/email-form.js"></script>   
+  
+</head>
+
+
+<div id="emailFormCard" class="card">
+  <div class="image">
+    <img src="https://cdn.pixabay.com/photo/2019/01/12/16/21/breakfast-3928800_960_720.jpg" alt="img">
+  </div>
+  <div id="subscribeForm" class="subscribe">
+    <h2>Subscribe For Latest Blog Posts</h2>
+    <p>Learn more and code better. Sign up my newsletter.</p>
+<form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
+  <fieldset>
+  
+ 
+  
+
+    <input style="background:#3c3c44;" type="email" placeholder="Enter Your Email Here"  name="GOOGLE_ENTRY_FORM_NUM" id="GOOGLE_ENTRY_FORM_NUM" required>
+
+   
+    <input type="submit" value="Subscribe">
+  </fieldset>
+</form>
+    
+
+
+   </div>
+</div>  
+
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+
+<script>
+  // Replacing Variables At Top Of This Document
+  
+  var strMessage1 = emailFormCard.getElementById("emailFormCard") ;
+emailFormCard.innerHTML = emailFormCard.innerHTML
+                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
+                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
+  ;</script>
