@@ -8,11 +8,54 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 
 ## Example and Usage
 
-[Contact Form Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+- **Contact Form Template**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)   
+    
 
-[Newsletter Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)
+  
+  
+  
 
-[Newsletter 2  Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/)
+<details>
+  <summary>Click to view photo preview</summary>
+  <br>
+<img src="https://i.imgur.com/f24lES2.png"></img>
+</details>
+
+
+
+----
+
+- **Newsletter Template 1**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)   
+    
+
+
+
+<details>
+   <summary>Click to view photo preview</summary>
+  <br>
+<img src="https://i.imgur.com/2fWdbUQ.png"></img>
+</details>
+
+
+----
+
+
+- **Newsletter Template 2**  
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/)   
+    
+
+
+
+<details>
+  <summary>Click to view photo preview</summary>
+  <br>
+<img src="https://i.imgur.com/tSXRDtt.png"></img>
+</details>
 
 
   
@@ -40,4 +83,4 @@ details.
 
 ## Acknowledgements 💙
 
-A big thanks to [toperkin (Tony Perkins)](https://github.com/toperkin/) for publishing their repo [staticFormEmails](https://github.com/toperkin/staticFormEmails)
+A big thanks to [toperkin (Tony Perkins)](https://github.com/toperkin/) for publishing their repo [staticFormEmails](https://github.com/toperkin/staticFormEmails) without doing so. This repo would not be possible!
