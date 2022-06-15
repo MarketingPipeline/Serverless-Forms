@@ -1,9 +1,9 @@
-# Serverless-Mail-Form
+# Serverless-Forms
 <div align="center">
-A free server-less mail form with no redirects.
+Free server-less forms with NO REDIRECTS powered by Google. <br>
 
-<b>Features</b>:<br> Easy To Setup & Use, Pure CSS Form Validation, No Redirection's, <br>
-  Free to use!
+<b>Features</b>:<br>Ready to go form templates, easy to setup & use, pure CSS form validation, no redirection's, <br>
+  free to use!
 </div>
 
 ## Example and Usage
