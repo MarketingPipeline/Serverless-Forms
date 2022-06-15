@@ -11,7 +11,11 @@ A free server-less mail form with no redirects.
 
 ## Example and Usage
 
+[Contact Form](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+
 [Newsletter Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)
+
+[Newsletter 2  Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/)
 
 <details>
   <summary> Click to view instructions</summary>
