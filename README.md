@@ -8,24 +8,17 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 
 ## Example and Usage
 
-[Contact Form](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+[Contact Form Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
 
-[Newsletter Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)
+[Newsletter Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/)
 
-[Newsletter 2  Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/)
+[Newsletter 2  Live Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/)
 
-<details>
-  <summary> Click to view instructions</summary>
-  <br>
+
   
-  <h3> Make a New Form</h3>
-  
-  <img src="https://github.com/toperkin/staticFormEmails/raw/master/newForm.png"></img>
-  
-  </details>
 
-If you want more info on how to send customized from 
-[Class MailApp  |  Apps Script  |  Google Developers](https://developers.google.com/apps-script/reference/mail/mail-app)
+If you want more info on how to make custom field forms / your own form fields read this repo
+[staticFormEmails](https://github.com/toperkin/staticFormEmails)
 
 
 
