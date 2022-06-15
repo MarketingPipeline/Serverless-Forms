@@ -3,6 +3,8 @@
   
   // Put your Google Entry Form ID Here
   var Google_Entry_ID="entry.39168894";
+    
+  var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
   
   
   </script> 
@@ -27,13 +29,13 @@
   <div id="subscribeForm" class="subscribe">
     <h2>Subscribe For Latest Blog Posts</h2>
     <p>Learn more and code better. Sign up my newsletter.</p>
-<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+<form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
   <fieldset>
   
  
   
 
-    <input style="background:#3c3c44;" type="email" placeholder="Enter Yours Email Here"  name="GOOGLE_ENTRY_FORM_NUM" id="GOOGLE_ENTRY_FORM_NUM" required>
+    <input style="background:#3c3c44;" type="email" placeholder="Enter Your Email Here"  name="GOOGLE_ENTRY_FORM_NUM" id="GOOGLE_ENTRY_FORM_NUM" required>
 
    
     <input type="submit" value="Subscribe">
@@ -52,5 +54,7 @@
 <script>
   var strMessage1 = document.getElementById("emailFormCard") ;
 strMessage1.innerHTML = strMessage1.innerHTML
-                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID);</script>
+                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
+                         .replace(/GOOGLE_FORM_URL/g, Google_Entry_ID)
+  ;</script>
 
