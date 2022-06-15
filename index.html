@@ -4,19 +4,13 @@
   // Put your Google Entry Form ID Here
   var Google_Entry_ID="entry.39168894";
     
+   // Put your Google Form Link Here  (Make sure to use correct link as documented)
   var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
   
   
   </script> 
  
 <link rel="stylesheet" href="assets/style.css">
-<script type="text/javascript">
-  
-  
-  
-  var submitted=false;
-  
-  </script> 
 <script type="text/javascript" src="assets/email-form.js"></script>   
   
 </head>
@@ -48,12 +42,14 @@
 </div>  
 
 
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
 
 <script>
-  var strMessage1 = document.getElementById("emailFormCard") ;
-strMessage1.innerHTML = strMessage1.innerHTML
+  // Replacing Variables At Top Of This Document
+  
+  var strMessage1 = emailFormCard.getElementById("emailFormCard") ;
+emailFormCard.innerHTML = emailFormCard.innerHTML
                         .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
                          .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
   ;</script>
