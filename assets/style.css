@@ -1,0 +1,178 @@
+input:not([type="submit"]) {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: 0;
+    border: 1px solid #fff;
+    background: 0 0;
+    color: #94949c;
+    font-weight: 300;
+}
+input:not([type="submit"])::placeholder {
+    background: 0 0;
+    opacity: 1;
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+input:not([type="submit"]):focus::placeholder {
+    opacity: 1;
+}
+input:not([type="submit"]):placeholder-shown {
+    background: 0 0;
+}
+input:not([type="submit"]):not(:placeholder-shown) {
+    background-color: #e6e6e6;
+}
+input:not([type="submit"]):not(:focus):not(:placeholder-shown):valid {
+    border: 1px solid #00a34a;
+}
+input:not([type="submit"]):not(:focus):not(:placeholder-shown):invalid {
+    border: 1px solid #a30008;
+}
+input:not([type="submit"]):focus,
+input:not([type="submit"]):placeholder-shown:invalid:not(:focus),
+input:not([type="submit"]):placeholder-shown:valid:not(:focus) {
+    border: 1px solid grey;
+}
+input:not([type="submit"]):focus {
+    background-color: #3c3c44;
+}
+form:invalid input[type="submit"] {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+form:valid input[type="submit"] {
+    opacity: 1;
+    cursor: auto;
+}
+body,
+html {
+    height: 100%;
+    font-size: 16px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #161616;
+    background: linear-gradient(to bottom right, #fff, grey) fixed;
+}
+.card {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    background-color: #303037;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.image {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.image img {
+    width: 100%;
+    height: 100% !important;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.subscribe {
+    flex: 1;
+    margin-left: 2rem;
+    color: #fff;
+}
+.subscribe p {
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.subscribe form {
+    display: flex;
+    align-items: center;
+}
+.subscribe form input[type="submit"] {
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    outline: 0;
+    margin-left: 0.5rem;
+    border: 1px solid #93c814;
+    background-color: #93c814;
+    color: #303037;
+    transition: 0.3s ease-in-out;
+}
+fieldset {
+    border: none;
+    margin-left: 60px;
+}
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0.01;
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0.01;
+        width: 100%;
+        height: 100%;
+    }
+    100% {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
