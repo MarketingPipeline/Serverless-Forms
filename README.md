@@ -8,6 +8,12 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 
 ## Example and Usage
 
+<details>
+  <summary>Click to view template(s)</summary>
+  
+### Templates  
+  <br>
+  
 - **Contact Form Template**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
   [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/),
@@ -69,7 +75,7 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 If you want more info on how to make custom field forms / your own form fields read this repo
 [staticFormEmails](https://github.com/toperkin/staticFormEmails)
   
-
+</details>
 
 
 
