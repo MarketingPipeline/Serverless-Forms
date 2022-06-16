@@ -1,11 +1,12 @@
-document.getElementById("gform").addEventListener('submit', (e) => {
+var gForm = document.getElementById("gform");
+gForm.addEventListener('submit', (e) => {
   
   // Timeout is needed for form to properly submit with animation
   setTimeout(function(){
    
   var subscribeForm = document.getElementById("subscribeForm")
  subscribeForm.setAttribute("style", "-webkit-animation: fadeOut 1s; animation: fadeOut 1s;  animation-fill-mode: forwards;");
- document.getElementById("gform").setAttribute("style", "display:none;");  
+ gForm.setAttribute("style", "display:none;");  
  
 subscribeForm.innerHTML = `<h1>Your Email Has Added To Our Newsletter List!</h1> `   
   
