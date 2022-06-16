@@ -1,8 +1,7 @@
-// Adding profanity filter - submit form conficts need fixed.
+// Adding profanity filter - needs improvement.
 
-
-
-document.getElementById("gform").addEventListener('submit', (e) => {
+var Gform = document.getElementById("gform")
+Gform.addEventListener('submit', (e) => {
   validate_text();
   
 })
@@ -47,10 +46,10 @@ function validate_text()
 		 
   var subscribeForm = document.getElementById("SendForm")
  subscribeForm.setAttribute("style", "-webkit-animation: fadeOut 1s; animation: fadeOut 1s;  animation-fill-mode: forwards;");
- document.getElementById("gform").setAttribute("style", "display:none;");  
+ Gform.setAttribute("style", "display:none;");  
  
 subscribeForm.innerHTML = `	<a class="close" onclick="ResetSwearForm();" href="#">&times;</a>
-<h1>The message will not be sent!!!\nThe following illegal words were found:</h1> <p>${alert_text}</p>`   
+<h1>Your message will not be added! \nThe following illegal words were found:</h1> <p>${alert_text}</p>`   
   
 subscribeForm.setAttribute("style", "-webkit-animation: fadeIn 1s; animation: fadeIn 1s;  animation-fill-mode: forwards;"); 
 	 
@@ -71,13 +70,13 @@ subscribeForm.setAttribute("style", "-webkit-animation: fadeIn 1s; animation: fa
 		 
 
  
- document.getElementById("gform").setAttribute("style", "display:none;");  
+Gform.setAttribute("style", "display:none;");  
   var subscribeForm = document.getElementById("SendForm")
 
 subscribeForm.innerHTML = `	<a class="close" href="#">&times;</a>
 <h1>Your Guestbook Entry Has Added! It will appear shortly!</h1> `   
   
-},3000);
+},500);
  }
 }
 window.onload=reset_alert_count;
@@ -95,28 +94,19 @@ subscribeForm.innerHTML = ` <h1>Sign The Guestbook</h1>
 		<a class="close" href="#">&times;</a>
 		<div class="content">
 		
-    <form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
+    <form name="gform" id="gform" enctype="text/plain" action="${Google_Form_Link}" target="hidden_iframe" onsubmit=" validate_text();">
         <input class="form-element short" type="text" name="${GOOGLE_ENTRY_ID_Name}" id="${GOOGLE_ENTRY_ID_Name}" placeholder="Full Name" style="background: #5EC6C8;" required>
         <input class="form-element short" type="email" name="${GOOGLE_ENTRY_ID_Email}" id="${GOOGLE_ENTRY_ID_Email}" placeholder="Email Address" style="background: #5EC6C8;" required>
         <textarea class="form-element" name="${GOOGLE_ENTRY_ID_Guestbook}" id="${GOOGLE_ENTRY_ID_Guestbook}" rows="5" cols="30" oninvalid="this.setCustomValidity('You must sign the guestbook')"
   oninput="this.setCustomValidity('')"  maxlength="50" placeholder="Enter Your Message Here" required></textarea>
-        <input class="form-button" type="submit" onClick="validate_text();" value="Submit">
+        <input class="form-button" type="submit"  value="Submit">
         <input class="form-button" type="reset" value="Reset Form">
     </form>
 		</div>
 	</div>
 </div>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>	
-	
-<div id="AllEntries" class="overlay">
-	<div class="popup">
-		<h2>Here i am</h2>
-		<a class="close" href="#">&times;</a>
-		<div id="AllEntries_Content" class="content" style="height: 25em;overflow-y: auto;">
-	
-            </div>
-		</div>
-	</div>`   
+
+`   
   
 subscribeForm.setAttribute("style", "-webkit-animation: fadeIn 1s; animation: fadeIn 1s;  animation-fill-mode: forwards;");  
 }
