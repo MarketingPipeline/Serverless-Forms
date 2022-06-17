@@ -35,17 +35,6 @@
 
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
 
-<script src="assets/email-form.js"></script>   
-
-<script>
-  // Replacing Variables At Top Of This Document
-  
-  var emailFormCard = document.getElementById("emailFormCard") ;
-emailFormCard.innerHTML = emailFormCard.innerHTML
-                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
-                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
-  ;</script>
-
  <script type="text/javascript">
   
   // Put your Google Entry Form ID Here
@@ -56,3 +45,14 @@ emailFormCard.innerHTML = emailFormCard.innerHTML
   
   
   </script> 
+
+
+<script>
+  // Replacing Variables At Top Of This Document
+  
+  var emailFormCard = document.getElementById("emailFormCard") ;
+emailFormCard.innerHTML = emailFormCard.innerHTML
+                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
+                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
+  ;</script>
+<script src="assets/email-form.js"></script>   
