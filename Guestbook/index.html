@@ -1,6 +1,71 @@
 
 <head>
-  <script type="text/javascript">
+ 
+
+<link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<div id="GuestBook">
+	<h1> Serveless Guestbook</h1>
+	<h3 id="t">Recent Entries</h3>
+<!-- Homepage -->
+<div class="container">
+
+    <div class="left-block">
+        <div id="json" class="guestbook">
+            
+        </div>
+    
+    </div>
+
+
+
+	
+	
+    <div class="right-block">
+        <h1>Sign my guestbook</h1>
+        <p> Thanks for checking this out. This is my guestbook. Feel free to sign it so I can see you were here.</p>
+        <div class="links">
+           <a href="#AllEntries">View All Entries</a>
+            <a href="#SignGuestBook">Sign the Guestbook</a>
+           
+        </div>
+    </div>
+</div>
+	
+<div id="SignGuestBook" class="overlay">
+	<div id="SendForm" class="popup">
+		<h1>Sign The Guestbook</h1>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+		
+    <form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
+        <input class="form-element short" type="text" name="GOOGLE_ENTRY_ID_Name" id="GOOGLE_ENTRY_ID_Name" placeholder="Full Name" style="background: #5EC6C8;" required>
+        <input class="form-element short" type="email" name="GOOGLE_ENTRY_ID_Email" id="GOOGLE_ENTRY_ID_Email" placeholder="Email Address" style="background: #5EC6C8;" required>
+        <textarea class="form-element" name="GOOGLE_ENTRY_ID_TextArea" id="GOOGLE_ENTRY_ID_TextArea" rows="5" cols="30" oninvalid="this.setCustomValidity('You must sign the guestbook')"
+  oninput="this.setCustomValidity('')"  maxlength="50" placeholder="Enter Your Message Here" required></textarea>
+        <input class="form-button" type="submit" value="Submit">
+        <input class="form-button" type="reset" value="Reset Form">
+    </form>
+		</div>
+	</div>
+</div>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>	
+	
+<div id="AllEntries" class="overlay">
+	<div class="popup">
+		<h2>Here i am</h2>
+		<a class="close" href="#">&times;</a>
+		<div id="AllEntries_Content" class="content" style="height: 25em;overflow-y: auto;">
+	
+            </div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+ <script type="text/javascript">
   
   // Put your Google Entry Form ID(s) Here
   var GOOGLE_ENTRY_ID_Name="entry.213171242";
@@ -25,21 +90,25 @@ var GOOGLE_ENTRY_ID_Guestbook="entry.499338992";
   
   </script> 
 
-<link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
-</head>
-<div id="GuestBook">
-	<h1> Serveless Guestbook</h1>
-	<h3 id="t">Recent Entries</h3>
-<!-- Homepage -->
-<div class="container">
+<script>
+  // Replacing Variables At Top Of This Document
+  
+  var GuestBook = document.getElementById("GuestBook") ;
+GuestBook.innerHTML = GuestBook.innerHTML
+                        .replace(/GOOGLE_ENTRY_ID_Name/g, GOOGLE_ENTRY_ID_Name)
+	
+	.replace(/GOOGLE_ENTRY_ID_Email/g, GOOGLE_ENTRY_ID_Email)
+	
+	.replace(/GOOGLE_ENTRY_ID_TextArea/g, GOOGLE_ENTRY_ID_Guestbook)
+	
 
-    <div class="left-block">
-        <div id="json" class="guestbook">
-            
-        </div>
-    
-    </div>
+	
+	
+	
+	
+	
+                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
+  ;</script>
 
 
 <script>
@@ -85,65 +154,3 @@ fetch(
         });
     });
   </script>
-	
-	
-    <div class="right-block">
-        <h1>Sign my guestbook</h1>
-        <p> Thanks for checking this out. This is my guestbook. Feel free to sign it so I can see you were here.</p>
-        <div class="links">
-           <a href="#AllEntries">View All Entries</a>
-            <a href="#SignGuestBook">Sign the Guestbook</a>
-           
-        </div>
-    </div>
-</div>
-	
-<div id="SignGuestBook" class="overlay">
-	<div id="SendForm" class="popup">
-		<h1>Sign The Guestbook</h1>
-		<a class="close" href="#">&times;</a>
-		<div class="content">
-		
-    <form name="gform" id="gform" enctype="text/plain" action="GOOGLE_FORM_URL" target="hidden_iframe" onsubmit="submitted=true;">
-        <input class="form-element short" type="text" name="GOOGLE_ENTRY_ID_Name" id="GOOGLE_ENTRY_ID_Name" placeholder="Full Name" style="background: #5EC6C8;" required>
-        <input class="form-element short" type="email" name="GOOGLE_ENTRY_ID_Email" id="GOOGLE_ENTRY_ID_Email" placeholder="Email Address" style="background: #5EC6C8;" required>
-        <textarea class="form-element" name="GOOGLE_ENTRY_ID_TextArea" id="GOOGLE_ENTRY_ID_TextArea" rows="5" cols="30" oninvalid="this.setCustomValidity('You must sign the guestbook')"
-  oninput="this.setCustomValidity('')"  maxlength="50" placeholder="Enter Your Message Here" required></textarea>
-        <input class="form-button" type="submit" value="Submit">
-        <input class="form-button" type="reset" value="Reset Form">
-    </form>
-		</div>
-	</div>
-</div>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>	
-	
-<div id="AllEntries" class="overlay">
-	<div class="popup">
-		<h2>Here i am</h2>
-		<a class="close" href="#">&times;</a>
-		<div id="AllEntries_Content" class="content" style="height: 25em;overflow-y: auto;">
-	
-            </div>
-		</div>
-	</div>
-</div>
-</div>
-<script>
-  // Replacing Variables At Top Of This Document
-  
-  var GuestBook = document.getElementById("GuestBook") ;
-GuestBook.innerHTML = GuestBook.innerHTML
-                        .replace(/GOOGLE_ENTRY_ID_Name/g, GOOGLE_ENTRY_ID_Name)
-	
-	.replace(/GOOGLE_ENTRY_ID_Email/g, GOOGLE_ENTRY_ID_Email)
-	
-	.replace(/GOOGLE_ENTRY_ID_TextArea/g, GOOGLE_ENTRY_ID_Guestbook)
-	
-
-	
-	
-	
-	
-	
-                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
-  ;</script>
