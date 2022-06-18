@@ -31,7 +31,7 @@ Your google link will look something like this, save & copy it for later.
      
 <b>Entry ID</b>:
 
-The "entry" value(s) after your form id, like so -
+The "entry" value after your form id, like so -
 
        entry.2031583407
 
