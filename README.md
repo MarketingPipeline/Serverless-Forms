@@ -92,8 +92,7 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
   
 ----
 
-If you want more info on how to make custom field forms / your own form fields read this repo
-[staticFormEmails](https://github.com/toperkin/staticFormEmails)
+
   
 </details>
 
@@ -110,7 +109,7 @@ participate in this project.
 ## License <a href="https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/LICENSE"> <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange.svg"></img></a>
 
 
-This repo is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License - see the
+This repo is licensed under the GPL-3.0 License - see the
 [LICENSE.md](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/LICENSE) file for
 details.
 
