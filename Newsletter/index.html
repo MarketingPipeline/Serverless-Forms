@@ -38,21 +38,15 @@
  <script type="text/javascript">
   
   // Put your Google Entry Form ID Here
-  var Google_Entry_ID="entry.39168894";
+  var Google_Entry_ID="entry.2031583407";
     
    // Put your Google Form Link Here  (Make sure to use correct link as documented)
-  var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
+  var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSeqIlTE59GOB_yxtowZdVbzoXvMEO_YRTmQ9YKIsLy32A7S-w/formResponse?"  
   
   
   </script> 
 
 
-<script>
-  // Replacing Variables At Top Of This Document
-  
-  var emailFormCard = document.getElementById("emailFormCard") ;
-emailFormCard.innerHTML = emailFormCard.innerHTML
-                        .replace(/GOOGLE_ENTRY_FORM_NUM/g, Google_Entry_ID)
-                         .replace(/GOOGLE_FORM_URL/g, Google_Form_Link)
-  ;</script>
+<script src="assets/replace-vars.js">
+ </script>
 <script src="assets/email-form.js"></script>   
