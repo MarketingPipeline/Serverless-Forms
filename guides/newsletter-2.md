@@ -44,11 +44,8 @@ Save these for later.
 ![image](https://user-images.githubusercontent.com/86180097/174425184-aff8d5ad-ec6d-4496-8194-715a3570177f.png)
 
 
-8. Once the spreadsheet has been created, make it PUBLIC & save the tab name at the bottom left corner
-
-![image](https://user-images.githubusercontent.com/86180097/174425225-79e9a095-d241-4dba-91d4-cee0997f1940.png)
           
-9. Under line 34 in the file <code>index.html</code>
+8. Under line 34 in the file <code>index.html</code>
  
 Put your Google Entry ID(s)  & Google Form Link you collected from earlier to the corresponding variables. 
 
@@ -68,7 +65,7 @@ Put your Google Entry ID(s)  & Google Form Link you collected from earlier to th
   
 
 
-10. Deploy to your hosting provider! Github Pages etc. 
+9. Deploy to your hosting provider! Github Pages etc. 
 
 Enjoy! :) All responses will be collected in your spreadsheet! 
  
