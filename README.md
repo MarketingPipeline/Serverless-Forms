@@ -77,7 +77,7 @@
 - **Guestbook** (includes a server-less based database) 
 
   [Source](https://github.com/MarketingPipeline/Serverless-Guestbook),
-  [Demo](https://MarketingPipelineeline.github.io/Serverless-Guestbook),
+  [Demo](https://MarketingPipeline.github.io/Serverless-Guestbook),
    [How to Setup](https://github.com/MarketingPipeline/Serverless-Guestbook/blob/main/HOW_TO_SETUP.md)
     
 
