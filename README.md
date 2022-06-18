@@ -107,7 +107,7 @@ See also the list of
 [contributors](https://github.com/MarketingPipeline/Serverless-Forms/graphs/contributors) who
 participate in this project.
 
-## License <a href="https://github.com/MarketingPipeline/Serverless-Forms/blob/main/LICENSE"> <img alt="License: CC BY-NC 4.0" src="https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange.svg"></img></a>
+## License <a href="https://github.com/MarketingPipeline/Serverless-Forms/blob/main/LICENSE"> <img alt="License: GPL-3.0" src="https://img.shields.io/github/license/MarketingPipeline/Serverless-Forms"></img></a>
 
 
 This repo is licensed under the GPL-3.0 License - see the
