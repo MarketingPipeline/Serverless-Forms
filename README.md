@@ -16,7 +16,7 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
   
 - **Contact Form Template**  
   [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
-  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/),
+  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/),
    [How to Setup](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
     
 
@@ -71,7 +71,27 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 
   
 ----
+
+
+- **Guestbook** (includes a server-less based database) 
+
+  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/),
+   [How to Setup](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+    
+
+
+
+<details>
+  <summary>Click to view photo preview</summary>
+  <br>
+<img src="https://i.imgur.com/tSXRDtt.png"></img>
+</details>
+
+
   
+----
+
 If you want more info on how to make custom field forms / your own form fields read this repo
 [staticFormEmails](https://github.com/toperkin/staticFormEmails)
   
