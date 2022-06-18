@@ -116,6 +116,8 @@ details.
 
 ## Acknowledgements 💙
 
-A big thanks to [toperkin (Tony Perkins)](https://github.com/toperkin/) for publishing their repo [staticFormEmails](https://github.com/toperkin/staticFormEmails) without doing so. 
+A big thanks to 
 
-This repo would not be possible!
+- [toperkin (Tony Perkins)](https://github.com/toperkin/) for publishing their repo [staticFormEmails](https://github.com/toperkin/staticFormEmails).
+
+ Without doing so this repo would not be possible!
