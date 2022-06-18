@@ -1,6 +1,6 @@
 
 <head>
- 
+  
 
 <link href="https://fonts.googleapis.com/css?family=Muli|Ovo" rel="stylesheet">
 <link rel="stylesheet" href="assets/style.css">
@@ -17,7 +17,6 @@
         </div>
     
     </div>
-
 
 
 	
@@ -54,7 +53,7 @@
 	
 <div id="AllEntries" class="overlay">
 	<div class="popup">
-		<h2>Here i am</h2>
+		<h2>All Entries</h2>
 		<a class="close" href="#">&times;</a>
 		<div id="AllEntries_Content" class="content" style="height: 25em;overflow-y: auto;">
 	
@@ -63,9 +62,7 @@
 	</div>
 </div>
 </div>
-
-
- <script type="text/javascript">
+<script type="text/javascript">
   
   // Put your Google Entry Form ID(s) Here
   var GOOGLE_ENTRY_ID_Name="entry.213171242";
@@ -77,8 +74,7 @@ var GOOGLE_ENTRY_ID_Guestbook="entry.499338992";
    // Put your Google Form Link Here  (Make sure to use correct link as documented)
 		
 		
-		
-		
+
   var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSefnSFRxp_6LB94vNng5LWo0a1JSEwQDjw_WyKl0UQSQxToAA/formResponse?"  
 	
 	
@@ -89,7 +85,6 @@ var GOOGLE_ENTRY_ID_Guestbook="entry.499338992";
   
   
   </script> 
-
 <script>
   // Replacing Variables At Top Of This Document
   
@@ -113,44 +108,7 @@ GuestBook.innerHTML = GuestBook.innerHTML
 
 <script>
 
-fetch(
-    `https://opensheet.elk.sh/13OqoZ_6_T2ouop9z5srzOyT6lyNyxK690DCGkki_Ud0/Guestbook+Entries`
-)
-    .then((res) => res.json())
-    .then((data) => {
-	
-	
-	// Add 5 entries to main page
-	      // ie; iterate 5 times
-	
-	for(var i = 0; i < 5 && i < data.length; i++){
 
-		document.getElementById("json").innerHTML += `
-					 <div class="entry">
-                <div class="entry-info">
-                    <p><span class="author">INSERT JSON VARIABLE HERE</span> | <span class="date">Thursday, August 4th, 2016</span> | <span class="time">1:43 PM</span></p>
-                </div>
-                <div class="entry-text">
-                    <p>I’m writing you a note because I think that I should. What do you think of this note? Did I write it well? Let me know. </p>
-                </div>
-            </div>`
-		
-}
-	
-	
-	/// Adding all entries to all entry section
-	
-        data.forEach((row) => {
-           document.getElementById("AllEntries_Content").innerHTML += `
-					 <div class="entry">
-                <div class="entry-info">
-                    <p><span class="author">${row.Name}</span> | <span class="date">${row.Timestamp}</span> | <span class="time">1:43 PM</span></p>
-                </div>
-                <div class="entry-text">
-                    <p>${row.Timestamp}</p>
-                </div>
-            </div>`
-          
-        });
-    });
   </script>
+
+<script src="assets/email-form-WIP.js"></script>
