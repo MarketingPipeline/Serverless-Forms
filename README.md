@@ -86,7 +86,7 @@
 <details>
   <summary>Click to view photo preview</summary>
   <br>
-<img src="https://i.imgur.com/tSXRDtt.png"></img>
+<img src="https://i.imgur.com/eKIdy7l.png"></img>
 </details>
 
 
