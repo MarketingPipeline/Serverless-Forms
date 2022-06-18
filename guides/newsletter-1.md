@@ -64,7 +64,7 @@ Put your Google Entry ID  & Google Form Link you collected from earlier to the c
 
 10. Deploy to your hosting provider! Github Pages etc. 
 
-Enjoy! :) 
+Enjoy! :) All responses will be collected in your spreadsheet! 
  
  
   
