@@ -52,13 +52,14 @@ Save these for later.
  
 Put your Google Entry ID  & Google Form Link you collected from earlier to the corresponding variables. 
 
-
-         // Put your Google Entry Form ID Here
-          var Google_Entry_ID="entry.39168894";
+ 
+      // Put your Google Entry Form ID Here
+      var Google_Entry_ID="entry.2031583407";
     
-         // Put your Google Form Link Here  (Make sure to use correct link as documented)
-          var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
-    
+      // Put your Google Form Link Here  (Make sure to use correct link as documented)
+      var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSeqIlTE59GOB_yxtowZdVbzoXvMEO_YRTmQ9YKIsLy32A7S-w/formResponse?"  
+  
+  
 
 
 10. Deploy to your hosting provider! Github Pages etc. 
