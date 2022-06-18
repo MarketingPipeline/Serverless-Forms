@@ -77,7 +77,7 @@ The first entry ID is "Name", second entry ID is "Email" & third is "Textarea"
 
 10. Deploy to your hosting provider! Github Pages etc. 
 
-Enjoy! :) 
+Enjoy! :) All responses will be collected in your spreadsheet! 
  
  
   
