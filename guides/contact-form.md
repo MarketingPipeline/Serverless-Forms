@@ -9,7 +9,7 @@
 
 3. Follow this exact template
 
-![image](https://user-images.githubusercontent.com/86180097/174425885-ca561a5e-ab28-484d-acb6-d14bd1370fe6.png)
+![image](https://user-images.githubusercontent.com/86180097/174426878-5d6feebc-0c93-43b7-a967-068d31996c29.png)
 
 4. Press the dropdown menu to the right of the "Send" button & press "Get Pre-Filled Link"
 
@@ -25,7 +25,7 @@
 
 Your google link will look something like this, save & copy it for later. 
 
-      https://docs.google.com/forms/d/e/1FAIpQLSfEx8iV53Y4q26wIZcyAutbYGBMiqJup5IyqXie3BpMwiH1Bw/viewform?usp=pp_url&entry.1684675021=a&entry.848940446=a
+      https://docs.google.com/forms/d/e/1FAIpQLSfy-tWg12-h-gbtJbk5g5GTPUpNZg2iML1fPgcAkNgJfqgzMQ/viewform?usp=pp_url&entry.1416717319=a&entry.2145923340=a&entry.355339717=a
        
 
 
@@ -35,14 +35,14 @@ Your google link will look something like this, save & copy it for later.
       
 the part that says "YOUR GOOGLE ID" will be your Google Form ID.  
 
-      https://docs.google.com/forms/d/e/YOUR GOOGLE ID/viewform?usp=pp_url&entry.1684675021=a&entry.848940446=a
+      https://docs.google.com/forms/d/e/YOUR GOOGLE ID/viewform?usp=pp_url&entry.1416717319=a&entry.2145923340=a&entry.355339717=a
        
      
 <b>Entry ID(s)</b>:
 
-The 2 "entry" value(s) after your form id, like so -
+The 3 "entry" value(s) after your form id, like so -
 
-       entry.1684675021, entry.848940446
+       entry.1416717319, entry.2145923340, entry.355339717
 
 
 Save these for later. 
@@ -63,14 +63,15 @@ Put your Google Entry ID's & Google Form Link you collected from earlier to the 
 
 The first entry ID is "Name", second entry ID is "Email" & third is "Textarea"
 
-         var Google_Entry_ID_Name="entry.39168894";
+
+         var Google_Entry_ID_Name="entry.1416717319";
   
-         var Google_Entry_ID_Email="entry.39168894";  
+         var Google_Entry_ID_Email="entry.2145923340";  
     
-         var Google_Entry_ID_TextArea="entry.39168894";     
+         var Google_Entry_ID_TextArea="entry.355339717";     
          
           // Put your Google Form Link Here  (Make sure to use correct link as documented)
-         var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSc1Kd-lJLWYk4ioCoKzMTWmjrVbXnnllRcYJtKX6tzSuOlJAg/formResponse?"  
+         var Google_Form_Link="https://docs.google.com/forms/d/e/1FAIpQLSfy-tWg12-h-gbtJbk5g5GTPUpNZg2iML1fPgcAkNgJfqgzMQ/formResponse?"  
     
 
 
