@@ -15,9 +15,9 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
   <br>
   
 - **Contact Form Template**  
-  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Source](https://github.com/MarketingPipeline/Serverless-Forms/tree/main/Contact-Form),
   [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/),
-   [How to Setup](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+   [How to Setup](https://github.com/MarketingPipeline/Serverless-Forms/blob/main/guides/contact-form.md)
     
 
  
@@ -37,9 +37,9 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 ----
 
 - **Newsletter Template 1**  
-  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Source](https://github.com/MarketingPipeline/Serverless-Forms/tree/main/Newsletter),
   [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter/),
-   [How to Setup](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+   [How to Setup](https://github.com/MarketingPipeline/Serverless-Forms/blob/main/guides/newsletter-1.md)
     
 
 
@@ -55,9 +55,9 @@ Free server-less forms with NO REDIRECTS powered by Google. <br>
 
 
 - **Newsletter Template 2**  
-  [Source](https://github.com/MarketingPipeline/Python-In-The-Browser/blob/main/demos/PyScript/adding_integers.html),
+  [Source](https://github.com/MarketingPipeline/Serverless-Forms/tree/main/Newsletter-2),
   [Demo](https://marketingpip.github.io/Serverless-Mail-Form/Newsletter-2/),
-   [How to Setup](https://marketingpip.github.io/Serverless-Mail-Form/Contact-Form/)
+   [How to Setup](https://github.com/MarketingPipeline/Serverless-Forms/blob/main/guides/newsletter-2.md)
     
 
 
