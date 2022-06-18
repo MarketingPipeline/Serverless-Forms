@@ -386,15 +386,3 @@ form:valid input[type="submit"] {
         opacity: 1;
     }
 }
-.form-element:maxlength {
-	display:none;
-}
-
-.form-element:maxlength:focus:valid {
-  background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% lightgreen;
-  background-size: 25px;
-}
-.form-element:maxlength:focus:invalid {
-  background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% lightsalmon;
-  background-size: 25px;
-}
